@@ -12,6 +12,7 @@
 		3965A5401B696F6900D78906 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3965A53F1B696F6900D78906 /* Images.xcassets */; };
 		3965A5431B696F6900D78906 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3965A5411B696F6900D78906 /* Main.storyboard */; };
 		3965A54F1B696F6900D78906 /* ic7100MemoryManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3965A54E1B696F6900D78906 /* ic7100MemoryManagerTests.swift */; };
+		3965A55A1B69703F00D78906 /* bcd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3965A5591B69703F00D78906 /* bcd.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,8 @@
 		3965A5481B696F6900D78906 /* ic7100MemoryManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ic7100MemoryManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3965A54D1B696F6900D78906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3965A54E1B696F6900D78906 /* ic7100MemoryManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ic7100MemoryManagerTests.swift; sourceTree = "<group>"; };
+		3965A5581B69702900D78906 /* ic7100Mem.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ic7100Mem.playground; sourceTree = "<group>"; };
+		3965A5591B69703F00D78906 /* bcd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bcd.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +78,9 @@
 		3965A5381B696F6900D78906 /* ic7100MemoryManager */ = {
 			isa = PBXGroup;
 			children = (
+				3965A5581B69702900D78906 /* ic7100Mem.playground */,
 				3965A53B1B696F6900D78906 /* AppDelegate.swift */,
+				3965A5591B69703F00D78906 /* bcd.swift */,
 				3965A53D1B696F6900D78906 /* ViewController.swift */,
 				3965A53F1B696F6900D78906 /* Images.xcassets */,
 				3965A5411B696F6900D78906 /* Main.storyboard */,
@@ -208,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3965A55A1B69703F00D78906 /* bcd.swift in Sources */,
 				3965A53E1B696F6900D78906 /* ViewController.swift in Sources */,
 				3965A53C1B696F6900D78906 /* AppDelegate.swift in Sources */,
 			);
@@ -400,6 +406,7 @@
 				3965A5541B696F6900D78906 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3965A5551B696F6900D78906 /* Build configuration list for PBXNativeTarget "ic7100MemoryManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +415,7 @@
 				3965A5571B696F6900D78906 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
