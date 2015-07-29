@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3965A53C1B696F6900D78906 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3965A53B1B696F6900D78906 /* AppDelegate.swift */; };
+		3965A53E1B696F6900D78906 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3965A53D1B696F6900D78906 /* ViewController.swift */; };
+		3965A5401B696F6900D78906 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3965A53F1B696F6900D78906 /* Images.xcassets */; };
+		3965A5431B696F6900D78906 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3965A5411B696F6900D78906 /* Main.storyboard */; };
+		3965A54F1B696F6900D78906 /* ic7100MemoryManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3965A54E1B696F6900D78906 /* ic7100MemoryManagerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3965A5491B696F6900D78906 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3965A52E1B696F6900D78906 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3965A5351B696F6900D78906;
+			remoteInfo = ic7100MemoryManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3965A5361B696F6900D78906 /* ic7100MemoryManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ic7100MemoryManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3965A53A1B696F6900D78906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3965A53B1B696F6900D78906 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3965A53D1B696F6900D78906 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3965A53F1B696F6900D78906 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3965A5421B696F6900D78906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3965A5481B696F6900D78906 /* ic7100MemoryManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ic7100MemoryManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3965A54D1B696F6900D78906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3965A54E1B696F6900D78906 /* ic7100MemoryManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ic7100MemoryManagerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3965A5331B696F6900D78906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3965A5451B696F6900D78906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3965A52D1B696F6900D78906 = {
+			isa = PBXGroup;
+			children = (
+				3965A5381B696F6900D78906 /* ic7100MemoryManager */,
+				3965A54B1B696F6900D78906 /* ic7100MemoryManagerTests */,
+				3965A5371B696F6900D78906 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3965A5371B696F6900D78906 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3965A5361B696F6900D78906 /* ic7100MemoryManager.app */,
+				3965A5481B696F6900D78906 /* ic7100MemoryManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3965A5381B696F6900D78906 /* ic7100MemoryManager */ = {
+			isa = PBXGroup;
+			children = (
+				3965A53B1B696F6900D78906 /* AppDelegate.swift */,
+				3965A53D1B696F6900D78906 /* ViewController.swift */,
+				3965A53F1B696F6900D78906 /* Images.xcassets */,
+				3965A5411B696F6900D78906 /* Main.storyboard */,
+				3965A5391B696F6900D78906 /* Supporting Files */,
+			);
+			path = ic7100MemoryManager;
+			sourceTree = "<group>";
+		};
+		3965A5391B696F6900D78906 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3965A53A1B696F6900D78906 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3965A54B1B696F6900D78906 /* ic7100MemoryManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3965A54E1B696F6900D78906 /* ic7100MemoryManagerTests.swift */,
+				3965A54C1B696F6900D78906 /* Supporting Files */,
+			);
+			path = ic7100MemoryManagerTests;
+			sourceTree = "<group>";
+		};
+		3965A54C1B696F6900D78906 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3965A54D1B696F6900D78906 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3965A5351B696F6900D78906 /* ic7100MemoryManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3965A5521B696F6900D78906 /* Build configuration list for PBXNativeTarget "ic7100MemoryManager" */;
+			buildPhases = (
+				3965A5321B696F6900D78906 /* Sources */,
+				3965A5331B696F6900D78906 /* Frameworks */,
+				3965A5341B696F6900D78906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ic7100MemoryManager;
+			productName = ic7100MemoryManager;
+			productReference = 3965A5361B696F6900D78906 /* ic7100MemoryManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3965A5471B696F6900D78906 /* ic7100MemoryManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3965A5551B696F6900D78906 /* Build configuration list for PBXNativeTarget "ic7100MemoryManagerTests" */;
+			buildPhases = (
+				3965A5441B696F6900D78906 /* Sources */,
+				3965A5451B696F6900D78906 /* Frameworks */,
+				3965A5461B696F6900D78906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3965A54A1B696F6900D78906 /* PBXTargetDependency */,
+			);
+			name = ic7100MemoryManagerTests;
+			productName = ic7100MemoryManagerTests;
+			productReference = 3965A5481B696F6900D78906 /* ic7100MemoryManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3965A52E1B696F6900D78906 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Neels Kriek";
+				TargetAttributes = {
+					3965A5351B696F6900D78906 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					3965A5471B696F6900D78906 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 3965A5351B696F6900D78906;
+					};
+				};
+			};
+			buildConfigurationList = 3965A5311B696F6900D78906 /* Build configuration list for PBXProject "ic7100MemoryManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3965A52D1B696F6900D78906;
+			productRefGroup = 3965A5371B696F6900D78906 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3965A5351B696F6900D78906 /* ic7100MemoryManager */,
+				3965A5471B696F6900D78906 /* ic7100MemoryManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3965A5341B696F6900D78906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3965A5401B696F6900D78906 /* Images.xcassets in Resources */,
+				3965A5431B696F6900D78906 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3965A5461B696F6900D78906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3965A5321B696F6900D78906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3965A53E1B696F6900D78906 /* ViewController.swift in Sources */,
+				3965A53C1B696F6900D78906 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3965A5441B696F6900D78906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3965A54F1B696F6900D78906 /* ic7100MemoryManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3965A54A1B696F6900D78906 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3965A5351B696F6900D78906 /* ic7100MemoryManager */;
+			targetProxy = 3965A5491B696F6900D78906 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3965A5411B696F6900D78906 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3965A5421B696F6900D78906 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3965A5501B696F6900D78906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3965A5511B696F6900D78906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3965A5531B696F6900D78906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ic7100MemoryManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3965A5541B696F6900D78906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ic7100MemoryManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3965A5561B696F6900D78906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ic7100MemoryManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ic7100MemoryManager.app/Contents/MacOS/ic7100MemoryManager";
+			};
+			name = Debug;
+		};
+		3965A5571B696F6900D78906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ic7100MemoryManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ic7100MemoryManager.app/Contents/MacOS/ic7100MemoryManager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3965A5311B696F6900D78906 /* Build configuration list for PBXProject "ic7100MemoryManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3965A5501B696F6900D78906 /* Debug */,
+				3965A5511B696F6900D78906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3965A5521B696F6900D78906 /* Build configuration list for PBXNativeTarget "ic7100MemoryManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3965A5531B696F6900D78906 /* Debug */,
+				3965A5541B696F6900D78906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3965A5551B696F6900D78906 /* Build configuration list for PBXNativeTarget "ic7100MemoryManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3965A5561B696F6900D78906 /* Debug */,
+				3965A5571B696F6900D78906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3965A52E1B696F6900D78906 /* Project object */;
+}
